@@ -1,0 +1,234 @@
+.app {
+  margin: 0 auto;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+
+
+/* container 容器 */
+/* home */
+
+/* 课程卡片 */
+.course {
+  width: 100%;
+  height: 241px;
+  background: #eee;
+  margin-bottom: 20px;
+}
+.course .kj {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.course .kj li {
+  float: left;
+  width: 171.4px;
+  height: 241px;
+  border-left: 1px solid #ccc;
+  padding: 50px 20px;
+}
+.course .kj li:hover span,
+.course .kj li:hover .ht,
+.course .kj li:hover .icon .el-icon-right {
+  color: red;
+}
+.course .kj li .ht {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 10px;
+  line-height: 40px;
+  border-bottom: 2px solid #ff7f00;
+}
+	
+.course .kj li:nth-child(2)  .ht{
+	  border-bottom: 2px solid yellow;
+}
+.course .kj li:nth-child(3)  .ht{
+	  border-bottom: 2px solid #00ff00;
+}
+.course .kj li:nth-child(4)  .ht{
+	  border-bottom: 2px solid 00ffff;
+}
+.course .kj li:nth-child(5)  .ht{
+	  border-bottom: 2px solid #00ffff;
+}
+.course .kj li:nth-child(6)  .ht{
+	  border-bottom: 2px solid #8B00FF;
+}
+.course .kj li:nth-child(7)  .ht{
+	  border-bottom: 2px solid red;
+}
+
+.course .kj li .border {
+  width: 130px;
+  height: 3px;
+}
+.course .kj li span {
+  font-size: 12px;
+  color: #a6a4a4;
+}
+.course .kj li .icon {
+  width: 30px;
+  height: 20px;
+  margin-top: 25px;
+  margin-left: 100px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.course .kj li .icon i {
+  color: #949494;
+}
+.course .kj li .i:nth-child(2) {
+  position: absolute;
+  top: 0;
+}
+
+/* 新闻和公告父盒子 */
+.cler {
+	width: 100%;
+	height: 600px;
+}
+/* 新闻卡片 */
+.box-card-news {
+	overflow:hidden;
+	float: left;
+	width: 575px;
+	height: 600px;
+}
+
+.box-card-news:nth-child(2) {
+	float: right;
+}
+.news-item {
+  width: 575px;
+  height: 550px;
+  font-size: 14px;
+}
+
+.news-item .text {
+	width: 100%;
+  color: #000;
+}
+.item1 li {
+  width: 100%;
+  height: 110px;
+  
+}
+.item1 li:nth-child(1) {
+  margin-top: 15px;
+}
+.item1 li .item1-left {
+  float: left;
+  width: 170px;
+  height: 100%;
+  background: #ccc;
+}
+.item1 li .item1-left img {
+  width: 100%;
+  height: 100%;
+}
+.item1 .item1-right {
+  float: left;
+  width: 397px;
+ height: 100%;
+  margin-left: 8px;
+}
+.item1 .item1-right .text {
+  font-size: 18px;
+}
+.item1 .item1-right span {
+  font-size: 12px;
+  color: #6d6c6c;
+}
+
+/* 公告卡片 */
+.item2 li {
+  list-style-type: disc !important;
+  width: 100%;
+  height: 41px;
+  line-height: 41px;
+  border-bottom: 1px dashed #ccc;
+}
+.item2 li:hover {
+  border-bottom: 1px dashed red;
+}
+.item2 li .time {
+  float: right !important;
+  font-size: 12px;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: '';
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  margin-bottom: -5px;
+}
+.box-card {
+  border: none;
+}
+.card-ht {
+  font-weight: 700;
+  font-size: 24px;
+  border-bottom: 4px solid #cc0000;
+  margin-right: 3px;
+}
+.text:hover {
+  color: red;
+}
+.el-card__header,
+.el-card__body {
+  padding: 0;
+}
+
+
+/* 展示栏 */
+.panel {
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  width: 100%;
+  height: 289.5px;
+}
+.panel ul {
+  width: 100%;
+  height: 100%;
+}
+.panel ul li {
+  float: left;
+  width: 30%;
+  height: 100%;
+  background: red;
+}
+.panel ul li:nth-child(2) {
+  margin: 0 5%;
+}
+.panel ul li .ht {
+  height: 45px;
+  background: #003b8f;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+}
+.panel ul li .img {
+  height: 209.5px;
+}
+.panel ul li .img img {
+  width: 100%;
+  height: 100%;
+}
+.panel ul li .hb {
+  height: 35px;
+  background: #eee;
+  text-align: center;
+  line-height: 35px;
+}
+.panel ul li .hb:hover {
+  color: red;
+  cursor: pointer;
+}

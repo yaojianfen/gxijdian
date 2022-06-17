@@ -1,0 +1,81 @@
+
+/* 封装子导航页面的侧边栏 */
+.main .aside {
+  float: left;
+  width: 216px;
+  height: 1100px;
+  background: #eee;
+}
+.main  .aside .ht {
+  width: 100%;
+  height: 66px;
+  line-height: 66px;
+  font-size: 24px;
+  text-align: center;
+  background: #003b90;
+  font-weight: 700;
+  color: #fff;
+}
+.main  .aside li {
+  height: 48px;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+  line-height: 48px;
+  font-size: 16px;
+  border-bottom: 1px solid #a8a8a8;
+}
+.main  .aside li:hover {
+  color: red;
+}
+
+
+/* 子导航右边的头部 */
+.main-right {
+  float: left;
+  width: 984px;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+
+.main-right .card .clearfix {
+  height: 55px;
+  line-height: 55px;
+  border-bottom: 2px solid #ccc;
+}
+.card .clearfix .title {
+  font-weight: 700;
+  /* font-size: 22px; */
+}
+.card:nth-child(1) .clearfix .title {
+  font-size: 18px;
+}
+.card:nth-child(1)  {
+  margin-bottom: 25px;
+}
+
+
+/* 子导航右的介绍栏 */
+.children {
+  position: relative;
+}
+.children .poa{
+ position: absolute;
+ right: 0;
+}
+.children ul  {
+  padding:0 30px;
+ 
+}
+.children ul li {
+  list-style-type: square !important;
+  width: 866px;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px dashed #ccc;
+  
+}
+.children ul li:hover {
+  color: red;
+  border-bottom: 1px dashed red;
+} 
